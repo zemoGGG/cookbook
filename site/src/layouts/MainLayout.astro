@@ -1,0 +1,65 @@
+---
+interface Props {
+	title ?: string;
+}
+
+const { title = 'Matty & Vanessa\'s Cookbook' } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<slot />
+
+		<script src="/homepage.js" is:inline></script>
+	</body>
+</html>
+
+<style is:global>
+	body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+	}
+
+	.header {
+		display: flex;
+		justify-content: center;
+	}
+
+	.purple {
+		background-color: #836B8C;
+	}
+
+	.pink {
+		background-color: pink;
+	}
+
+	.logo {
+		color: white;
+		font: bold 52px "Fira Sans", sans-serif;
+	}
+
+	.main-content {
+		display: flex;
+		padding: 16px;
+		justify-content: center;
+		flex-wrap: wrap;
+		background-color: #836B8C;
+	}
+
+	.dessert-content {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+</style>

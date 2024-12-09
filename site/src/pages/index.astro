@@ -1,0 +1,164 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import Search from "../components/Search.astro";
+
+const mattRecipes = [
+	{
+		name: 'Lasagna',
+		image: '/recipes/images/lasagna.png',
+		link: '/recipes/lasagna',
+		specialty: false
+	},
+	{
+		name: 'Japanese Curry',
+		image: '/recipes/images/curry.png',
+		link: '/recipes/curry',
+		specialty: true
+	},
+	{
+		name: 'Fried Rice',
+		image: '/recipes/images/friedrice.png',
+		link: '/recipes/friedrice',
+		specialty: false
+	},
+	{
+		name: 'Butter Chicken',
+		image: '/recipes/images/butterchicken.png',
+		link: '/recipes/butterchicken',
+		specialty: false
+	},
+	{
+		name: 'Pepper Steak',
+		image: '/recipes/images/peppersteak.png',
+		link: '/recipes/peppersteak',
+		specialty: true
+	},
+	{
+		name: 'Chicken Parmesan',
+		image: '/recipes/images/chickenparm.png',
+		link: '/recipes/chickenparm',
+		specialty: false,
+		comingSoon: true
+	},
+	{
+		name: 'Fried Chicken',
+		image: '/recipes/images/friedchicken.png',
+		link: '/recipes/friedchicken',
+		specialty: true
+	},
+	{
+		name: 'Beef Barley Soup',
+		image: '/recipes/images/beefbarley.png',
+		link: '/recipes/beefbarley'
+	},
+	{
+		name: 'Minestrone Soup',
+		image: '/recipes/images/minestrone.png',
+		link: '/recipes/minestrone'
+	},
+	{
+		name: 'Japanese Milk Rolls',
+		image: '/recipes/images/rolls.png',
+		link: '/recipes/milkrolls'
+	},
+	{
+		name: "General Tso's Chicken",
+		image: '/recipes/images/generaltso.png',
+		link: '/recipes/generaltso'
+	},
+	{
+		name: 'Swiss Steak',
+		image: '/recipes/images/swisssteak.png',
+		link: '/recipes/swisssteak',
+		comingSoon: true
+	},
+	{
+		name: 'Potato Chip Chicken',
+		image: '/recipes/images/potatochipchicken.jpeg',
+		link: '/recipes/potatochipchicken',
+		comingSoon: true
+	},
+	{
+		name: 'Genovese Pesto',
+		image: '/recipes/images/pesto.jpg',
+		link: '/recipes/pesto',
+		comingSoon: true
+	},
+	{
+		name: 'Ragù Bolognese',
+		image: '/recipes/images/ragubolognese.JPG',
+		link: '/recipes/ragubolognese',
+		comingSoon: true
+	},
+	{
+		name: 'Pasta alla Genovese',
+		image: '/recipes/images/pastaallagenovese.jpg',
+		link: '/recipes/pastaallagenovese',
+		comingSoon: true
+	},
+	{
+		name: 'Meatballs',
+		image: '/recipes/images/meatballs.jpg',
+		link: '/recipes/meatballs',
+		comingSoon: true
+	},
+	{
+		name: 'Beef with Broccoli',
+		image: '/recipes/images/beefbroccoli.jpg',
+		link: '/recipes/beefbroccoli',
+		comingSoon: true
+	}
+];
+
+const vanessaRecipes = [
+    { 
+        name: 'Chocolate Chip Cookies', 
+        image: '/recipes/images/chocolatechip.png', 
+        link: '/recipes/images/cookiedough.webp',
+        specialty: false
+    },
+    { 
+        name: 'Cheesecake', 
+        image: '/recipes/images/cheesecake.png', 
+        link: '/recipes/v/cheesecake',
+        specialty: true,
+        comingSoon: true
+    }
+];
+---
+
+<MainLayout>
+	<Search />
+	<section class="header purple">
+		<h1 id="mattys-recipes" class="logo">Matty's Recipes</h1>
+	</section>
+
+	<main class="main-content">
+		{mattRecipes.map(recipe => (
+		<RecipeCard
+			name={recipe.name}
+			image={recipe.image}
+			link={recipe.link}
+			specialty={recipe.specialty}
+			comingSoon={recipe.comingSoon}
+			/>
+		))}
+	</main>
+
+	<section class="header pink">
+		<h1 id="vanessas-recipes" class="logo">Vanessa's Recipes</h1>
+	</section>
+
+	<main class="dessert-content pink">
+		{vanessaRecipes.map(recipe => (
+			<RecipeCard
+				name={recipe.name}
+				image={recipe.image}
+				link={recipe.link}
+				specialty={recipe.specialty}
+				comingSoon={recipe.comingSoon}
+			/>
+		))}
+	</main>
+</MainLayout>

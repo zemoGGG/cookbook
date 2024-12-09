@@ -1,0 +1,53 @@
+<div class="search-container">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search recipes.."
+        class="search-input"
+    />
+</div>
+
+<style>
+    .search-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .search-input {
+        width: 300px;
+        padding: 10px 15px;
+        border: 2px solid #836B8C;
+        border-radius: 20px;
+        font-size: 16px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .search-input:focus {
+        outline: none;
+        border-color: #deb887;
+        box-shadow: 0 0 5px rgba(222,184,135,0.5);
+    }
+
+    @media (max-width: 600px) {
+        .search-input {
+            width: 90%;
+        }
+    }
+</style>
+
+<script>
+    const searchInput = document.getElementById('searchInput');
+    const recipeCards = document.querySelectorAll('.card');
+
+    searchInput?.addEventListener('input', (e) => {
+        const searchTerm = (e.target as HTMLInputElement).value.toLowerCase();
+
+        recipeCards.forEach((card) => {
+            const recipeName = card.querySelector('a')?.textContent?.toLowerCase() || '';
+            const isVisible = recipeName.includes(searchTerm);
+            (card as HTMLElement).style.display = isVisible ? 'flex' : 'none';
+        });
+    });
+</script>
