@@ -6,6 +6,7 @@ difficulty: 3/5
 prepTime: 30 minutes (4 hr+ marinade)
 cookTime: 45 minutes
 servings: 6
+specialty: true
 ingredients:
 - "**SPICE MIX**"
 - Paprika (2 tbsp)

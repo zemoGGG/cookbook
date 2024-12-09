@@ -6,6 +6,7 @@ difficulty: 2/5
 prepTime: 15 minutes
 cookTime: 45 minutes
 servings: 5
+specialty: true
 ingredients:
 - London Broil (bite-sized pieces)
 - Onion (1/2 onion, minced)

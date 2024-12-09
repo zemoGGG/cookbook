@@ -6,6 +6,7 @@ difficulty: 4/5
 prepTime: 40 minutes
 cookTime: 60 minutes
 servings: 8
+specialty: true
 ingredients:
 - "**CRUST**"
 - Graham Cracker Crumbs (1 1/2 cups / 180 g)
