@@ -5,7 +5,7 @@ image: /recipes/images/semolinaroll.webp
 difficulty: 2/5
 prepTime: 60 minutes
 cookTime: 30 minutes
-servings: 3
+servings: 3 rolls
 specialty: false
 ingredients:
 - Bread Flour (240g)
@@ -29,6 +29,6 @@ steps:
 - Preheat oven to 375F.
 - "*Optionally, but recommended,* Score each roll with a bread lame from end to end."
 - Bake for 25-30 minutes, rotating the pan 180 degrees halfway through. They should be a light golden brown when they're done.
-- Allow to cool before slicing. Use to make a <a href='../recipes/italianbeef'>sandwich</a>.
+- Allow to cool before slicing. Use to make a <a href='/recipes/italianbeef'>sandwich</a>.
 ---
 
