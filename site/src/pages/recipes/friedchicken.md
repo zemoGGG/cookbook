@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Fried Chicken
-image: /recipes/images/friedchicken.png
+image: /recipes/images/friedchicken.webp
 difficulty: 3/5
 prepTime: 30 minutes (4 hr+ marinade)
 cookTime: 45 minutes

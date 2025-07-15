@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Minestrone Soup
-image: /recipes/images/minestrone.png
+image: /recipes/images/minestrone.webp
 difficulty: 2/5
 prepTime: 30 minutes
 cookTime: 60 minutes

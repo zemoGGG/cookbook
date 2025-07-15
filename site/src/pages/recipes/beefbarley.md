@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Beef Barley Soup
-image: /recipes/images/beefbarley.png
+image: /recipes/images/beefbarley.webp
 difficulty: 2/5
 prepTime: 20 minutes
 cookTime: 60 minutes

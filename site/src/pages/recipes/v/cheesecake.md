@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/RecipeLayout.astro
 title: Cheesecake
-image: /recipes/images/cheesecake.png
+image: /recipes/images/cheesecake.webp
 difficulty: 4/5
 prepTime: 40 minutes
 cookTime: 60 minutes

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Pepper Steak
-image: /recipes/images/peppersteak.png
+image: /recipes/images/peppersteak.webp
 difficulty: 2/5
 prepTime: 15 minutes
 cookTime: 60 minutes

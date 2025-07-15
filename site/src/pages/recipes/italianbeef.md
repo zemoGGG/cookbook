@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Italian Beef
-image: /recipes/images/italianbeef.jpg
+image: /recipes/images/italianbeef.webp
 difficulty: 3/5
 prepTime: 15 minutes
 cookTime: 75 minutes

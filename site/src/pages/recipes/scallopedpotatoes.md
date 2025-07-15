@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Scalloped Potatoes
-image: /recipes/images/scallopedpotatoes.jpg
+image: /recipes/images/scallopedpotatoes.webp
 difficulty: 3/5
 prepTime: 50 minutes
 cookTime: 90 minutes

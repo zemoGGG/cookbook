@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Japanese Curry
-image: /recipes/images/curry.png
+image: /recipes/images/curry.webp
 description: A classic Japanese curry with tender meat and vegetables, served over white rice.
 difficulty: 2/5
 prepTime: 20 minutes

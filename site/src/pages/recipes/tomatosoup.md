@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Tomato Soup
-image: /recipes/images/tomatosoup.jpg
+image: /recipes/images/tomatosoup.webp
 difficulty: 2/5
 prepTime: 30 minutes
 cookTime: 90 minutes

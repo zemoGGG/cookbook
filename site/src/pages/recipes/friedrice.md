@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Fried Rice
-image: /recipes/images/friedrice.png
+image: /recipes/images/friedrice.webp
 difficulty: 1/5
 prepTime: 10 minutes
 cookTime: 10 minutes

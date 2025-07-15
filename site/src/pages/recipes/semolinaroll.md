@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Semolina Roll
-image: /recipes/images/semolinaroll.jpg
+image: /recipes/images/semolinaroll.webp
 difficulty: 2/5
 prepTime: 60 minutes
 cookTime: 30 minutes

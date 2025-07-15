@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Japanese Milk Rolls
-image: /recipes/images/rolls.png
+image: /recipes/images/rolls.webp
 difficulty: 4/5
 prepTime: 240 minutes
 cookTime: 30 minutes

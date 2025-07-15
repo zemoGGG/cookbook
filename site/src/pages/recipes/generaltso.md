@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: General Tso's Chicken
-image: /recipes/images/generaltso.png
+image: /recipes/images/generaltso.webp
 difficulty: 3/5
 prepTime: 45 minutes
 cookTime: 20 minutes

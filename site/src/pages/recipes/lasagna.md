@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Lasagna
-image: /recipes/images/lasagna.png
+image: /recipes/images/lasagna.webp
 difficulty: 3/5
 prepTime: 30 minutes
 cookTime: 150 minutes

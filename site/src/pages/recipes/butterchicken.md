@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Butter Chicken
-image: /recipes/images/butterchicken.png
+image: /recipes/images/butterchicken.webp
 difficulty: 3/5
 prepTime: 45 minutes
 cookTime: 30 minutes

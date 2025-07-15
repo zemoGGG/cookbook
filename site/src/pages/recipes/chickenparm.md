@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/RecipeLayout.astro
 title: Chicken Parmesan
-image: /recipes/images/chickenparm.png
+image: /recipes/images/chickenparm.webp
 difficulty: 3/5
 prepTime: 30 minutes
 cookTime: 90 minutes
