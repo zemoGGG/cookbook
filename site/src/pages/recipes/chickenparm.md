@@ -5,7 +5,7 @@ image: /recipes/images/chickenparm.webp
 difficulty: 3/5
 prepTime: 30 minutes
 cookTime: 90 minutes
-servings: 8
+servings: 8 pieces
 specialty: false
 ingredients:
 - "**Chicken**"

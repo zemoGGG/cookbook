@@ -5,7 +5,7 @@ image: /recipes/images/minestrone.webp
 difficulty: 2/5
 prepTime: 30 minutes
 cookTime: 60 minutes
-servings: 6
+servings: 8 bowls
 ingredients:
 - Olive Oil (3 tbsp)
 - Garlic (3 cloves, minced)

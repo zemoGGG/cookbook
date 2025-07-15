@@ -5,7 +5,7 @@ image: /recipes/images/beefbarley.webp
 difficulty: 2/5
 prepTime: 20 minutes
 cookTime: 60 minutes
-servings: 6
+servings: 6 bowls
 ingredients:
 - London Broil/Chuck Roast (1-2 lbs, 1/2 in cubes)
 - Olive Oil (3 tbsp)

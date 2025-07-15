@@ -5,7 +5,7 @@ image: /recipes/images/italianbeef.webp
 difficulty: 3/5
 prepTime: 15 minutes
 cookTime: 75 minutes
-servings: 6
+servings: 6-8 sandwiches
 specialty: false
 ingredients:
 - Top Round/Sirloin Roast (3-4 lbs)

@@ -5,7 +5,7 @@ image: /recipes/images/tomatosoup.webp
 difficulty: 2/5
 prepTime: 30 minutes
 cookTime: 90 minutes
-servings: 8
+servings: 8 bowls
 specialty: false
 ingredients:
 - Butter (1 stick)

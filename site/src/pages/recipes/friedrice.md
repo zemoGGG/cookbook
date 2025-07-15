@@ -5,7 +5,7 @@ image: /recipes/images/friedrice.webp
 difficulty: 1/5
 prepTime: 10 minutes
 cookTime: 10 minutes
-servings: 4
+servings: 4 bowls
 ingredients:
 - Cooked White Rice
 - Neutral Oil

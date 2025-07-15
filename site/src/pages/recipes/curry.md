@@ -6,7 +6,7 @@ description: A classic Japanese curry with tender meat and vegetables, served ov
 difficulty: 2/5
 prepTime: 20 minutes
 cookTime: 60 minutes
-servings: 4
+servings: 4 bowls
 specialty: true
 ingredients:
 - Onions
