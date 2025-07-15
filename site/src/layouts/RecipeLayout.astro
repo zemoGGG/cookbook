@@ -20,6 +20,8 @@ const parsedSteps = steps.map((step: string) =>
 
 <MainLayout title={title}>
     <div class="header">
+        <a href='/'>Home</a>
+        
         <h1>{title}</h1>
         {specialty && <span class='star' title='A Matthew Specialty'>★</span>}
 
@@ -96,6 +98,11 @@ const parsedSteps = steps.map((step: string) =>
         object-fit: cover;
         border-radius: 10px;
         margin: 20px 0;
+    }
+
+    .header a {
+        justify-self: left;
+        align-self: flex-start;
     }
 
     .difficulty {
